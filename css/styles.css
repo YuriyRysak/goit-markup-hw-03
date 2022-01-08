@@ -1,0 +1,195 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --top-line-bg:#ffffff;
+    --footer-bg-color:#2F303A;
+    --body-bg-color:#E5E5E5;
+    --filter-bg-color:#F5F4FA;
+  }
+          /* Цвет основного текста #212121*/
+          /* Вторичный цвет текста #757575*/
+          /* Активная ссылка #2196F3*/
+          /* top line bg #FFFFFF*/
+          /* Section bg #F5F4FA*/
+          /* Footer bg #2F303A*/
+          /* г. Киев, пр-т Леси Украинки, 26 #FFFFFF*/
+  body {
+    background-color: var(--body-bg-color);
+    color:var(--primary-text-color);
+    font-family:Roboto, sans-serif;
+    letter-spacing: 0.03em;
+  
+  } 
+  
+  .list {
+    list-style: none;
+  }
+   
+  /* Верхняя линия */
+  /* Logo */
+  .line {
+    background-color: var(--top-line-bg);
+  }
+  .logo {
+    color:var(--accent-color);
+    font-family:Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  .logo:hover,.logo:focus  {
+    color:var(--primary-text-color);
+  }
+  .color-logo-header {
+    color:var(--primary-text-color);
+  }
+  .color-logo-footer {
+     color:var(--top-line-bg);
+  }
+  /* Navigation */
+  .site-nav .link{
+    color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+   color:var(--accent-color);
+  }
+  .site-nav .link.current {
+  color: var(--accent-color);
+  } 
+   
+  /* contacts selection */
+  .contacts-reference a {
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+    
+  .contacts-reference a:hover,
+  .contacts-reference a:focus,
+  .link-address:hover,
+  .link-address:focus {
+    color: var(--accent-color);
+  }
+   
+    /* Шапка  */
+   /* Services */
+   .section-services {
+     background-color: var(--footer-bg-color);
+     color: var(--top-line-bg);
+   }
+   .services-decision{
+    color: var(--primery-whitte-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em
+  }
+  
+ /* Особености */
+  .section-title {
+    color:var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+  }
+  .section-title-list {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em; 
+  }
+   /* Чем мы занимаемся Наша команда*/
+   .team {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+   .name {
+    color: var(--primary-text-color); 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+   }
+   .occupation {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+   }
+  /* Footer */
+  .page-footer {
+    background-color:var(--footer-bg-color) ;
+  }
+  .link-address {
+    color:var(--top-line-bg);
+       
+  }
+  /* Buttons */          
+  .button {
+    color:var(--primary-text-color);
+    background-color:var(--body-bg-color);
+    cursor: pointer;
+  }
+  .button.primary {
+    background-color: var(--accent-color);
+    color: var(--top-line-bg);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+  } 
+  .button.primary:hover,
+  .button.primary:focus {
+    color: var(--primary-text-color);
+    background-color: var(--filter-bg-color);
+  }
+  .button.secondary {
+    color:var(--primary-text-color);
+    background-color:var(--filter-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  .button.secondary:hover,
+  .button.secondary:focus {
+      color:var(--top-line-bg);
+      background-color: var(--accent-color);
+  }
+   /* Портфолио */
+  .example-name{
+  color:var(--primary-text-color) ;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  }
+  .direction {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  }
