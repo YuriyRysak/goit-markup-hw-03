@@ -6,6 +6,7 @@
     --footer-bg-color:#2F303A;
     --body-bg-color:#E5E5E5;
     --filter-bg-color:#F5F4FA;
+    --address-text-color:rgba(255, 255, 255, 0.6);
   }
           /* Цвет основного текста #212121*/
           /* Вторичный цвет текста #757575*/
@@ -65,14 +66,27 @@
   } 
    
   /* contacts selection */
-  .contacts-reference a {
+  /* .contacts { */
+    
+    .reference {
     color: var(--secondary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    }
+    .page {
+    color: var(--address-text-color) ;  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
   }
+<<<<<<< HEAD
   .page {
     font-family: Roboto;
     font-style: normal;
@@ -83,6 +97,12 @@
   }
   .contacts-reference a:hover,
   .contacts-reference a:focus,
+=======
+    
+  .reference:hover,
+  .reference:focus,
+  .page:hover,.page:focus,
+>>>>>>> a4ad98bdb8f5ab6b4cbe8812ca4a8a97cce59cd1
   .link-address:hover,
   .link-address:focus {
     color: var(--accent-color);
@@ -100,7 +120,8 @@
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em
+    letter-spacing: 0.06em;
+    text-transform: uppercase; 
   }
   
  /* Особености */
@@ -110,6 +131,7 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
   }
   .section-title-list {
     color: var(--secondary-text-color);
@@ -161,6 +183,8 @@
   .button.primary {
     background-color: var(--accent-color);
     color: var(--top-line-bg);
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -174,6 +198,8 @@
   .button.secondary {
     color:var(--primary-text-color);
     background-color:var(--filter-bg-color);
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
