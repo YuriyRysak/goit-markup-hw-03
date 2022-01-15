@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet"/>    
     <link href="./css/styles.css" rel="stylesheet" />
 
 </head>
@@ -19,28 +20,35 @@
     <!-- Верхняя линия -->
     <header class="line">
         <!--navigation-->
+    <div class="container">
         <nav>
-            <a class="logo" href="/">Web<span class="color-logo-header">Studio</span></a>
-            <ul class="site-nav list">
+            <div class="container-logo"><a class="logo" href="/">Web<span class="color-logo-header">Studio</span></a>
+            </div>
+            <div class="container-nav"><ul class="site-nav list">
                 <li><a href="./index.html" class="link current">Студия</a></li>
                 <li><a href="./portfolio.html" class="link">Портфолио</a></li>
                 <li><a href="#contacts" class="link">Контакты</a></li>
             </ul>
+            </div>
         </nav>
         <!--contacts selection-->
+    <div class="container-contacts">
         <ul class="contacts list">
-            <li><a class="reference" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="reference" href="tel:+380961111111">+38 096 111 11 11</a></li>
+           <div class="contacts-mail"><li><a class="reference" href="mailto:info@devstudio.com">info@devstudio.com</a></li></div>
+           <div class="contacts-tel"><li><a class="reference" href="tel:+380961111111">+38 096 111 11 11</a></li></div>
         </ul>
-
+    </div>
     </header>
     <main>
         <!--Шапка-->
+        <div class="container">
         <section class="section-services">
             <h1 class="services-decision">Эффективные решения<br>для вашего бизнеса</h1>
             <button type="button" class="button primary">Заказать услугу</button>
         </section>
+        </div>
         <!--Особености-->
+        <div class="container">
         <section class="section">
             <ul class="list">
                 <li>
@@ -69,7 +77,9 @@
                 </li>
             </ul>
         </section>
+        </div>
         <!--Чем мы занимаемся-->
+        <div class="container">
         <section class="section">
             <h2 class="team">Чем мы занимаемся</h2>
             <ul class="list">
@@ -84,7 +94,9 @@
                 </li>
             </ul>
         </section>
+        </div>
         <!-- Наша команда -->
+        <div class="container">
         <section class="section">
             <h2 class="team">Наша команда</h2>
             <ul class="team-text list">
@@ -136,8 +148,10 @@
                 </li>
             </ul>
         </section>
+        </div>
     </main>
     <!-- Подвал -->
+    <div class="container"></div>
     <footer class="page-footer">
         <a class="logo" href="/">Web<span class="color-logo-footer">Studio</span></a>
         <!--address-->
@@ -157,5 +171,9 @@
             <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
         </ul> -->
     </footer>
+    </div>
+
+
 </body>
+
 </html>
