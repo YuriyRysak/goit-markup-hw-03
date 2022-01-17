@@ -43,6 +43,7 @@
   /* Logo */
   .line {
     background-color: var(--top-line-bg);
+    padding-top: 32px;
   }
   .logo {
     color:var(--accent-color);
@@ -154,7 +155,8 @@
    }
    .services-decision{
     margin-top: 0;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    padding-top: 200px;
     color: var(--primery-whitte-color);
     font-weight: 900;
     font-size: 44px;
@@ -182,6 +184,7 @@
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
+    padding-top: 94px;
   }
   .section-title-list {
     color: var(--secondary-text-color);
@@ -190,10 +193,11 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 94px; 
+    margin-bottom: 94px;
+    
   }
    /* Чем мы занимаемся Наша команда*/
-   .team {
+  .team {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -202,8 +206,10 @@
     letter-spacing: 0.03em;
     margin-top: 0;
     margin-bottom: 50px ;
+
   }
-   .name {
+ 
+  .name {
     color: var(--primary-text-color); 
     font-weight: 500;
     font-size: 16px;
@@ -211,7 +217,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 0 ;
+    margin-bottom: 10px ;
    }
    .occupation {
     color: var(--secondary-text-color);
@@ -221,7 +227,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 0 ;
+    margin-bottom: 30px ;
 
    }
   /* Footer */
@@ -304,7 +310,7 @@
   clip: rect(0 0 0 0);
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
