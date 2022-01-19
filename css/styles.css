@@ -44,7 +44,24 @@
   .line {
     background-color: var(--top-line-bg);
     padding-top: 32px;
+    padding-bottom: 32px;
+
   }
+.cap{
+
+  }
+.exception {
+
+}
+.cooperate {
+
+}
+.personnel{
+
+}
+.cellar {
+
+}
   .logo {
     color:var(--accent-color);
     font-family:Raleway,sans-serif;
@@ -169,11 +186,18 @@
   .feature {
     display: flex;
     flex-wrap: wrap;
+       
   }
   .feature .list-item {
     width: 270px;
-    background: turquoise;
+    margin-right: 30px;
   }
+  .list-item:last-child {
+    margin-right: 0;
+  }
+  
+
+
 
   .section-title {
     color:var(--primary-text-color);
@@ -197,6 +221,7 @@
     
   }
    /* Чем мы занимаемся Наша команда*/
+
   .team {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -207,6 +232,14 @@
     margin-top: 0;
     margin-bottom: 50px ;
 
+  }
+  .feature .team-list {
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 94px;
+  }
+  .team-list:last-child {
+    margin-right: 0; 
   }
  
   .name {
